@@ -24,7 +24,7 @@ public class Ball : MonoBehaviour
             //Wait for the mouse click to launch
             if (Input.GetMouseButtonDown(0)){
                 print("clicked");
-                this.GetComponent<Rigidbody2D>().velocity = new Vector2 (1f, 10f);
+                this.GetComponent<Rigidbody2D>().velocity = new Vector2 (2f, 10f);
                 hasStarted = true;
             };
         }
