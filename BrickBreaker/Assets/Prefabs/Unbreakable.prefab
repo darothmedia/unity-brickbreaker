@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &809558644673501482
+--- !u!1001 &2436531041604235001
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -53,31 +53,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1542425122667636247, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: m_Name
-      value: 2 hit block Variant
+      value: Unbreakable
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542425122667636247, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3034923162056307523, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: m_Color.b
-      value: 0.9607843
+      value: 0.46226418
       objectReference: {fileID: 0}
     - target: {fileID: 3034923162056307523, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: m_Color.g
-      value: 0.8403181
+      value: 0.46226418
       objectReference: {fileID: 0}
     - target: {fileID: 3034923162056307523, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: m_Color.r
-      value: 0.09411763
+      value: 0.46226418
       objectReference: {fileID: 0}
     - target: {fileID: 6178688241949476076, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: MaxHits
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6178688241949476076, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: hitSprites.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6178688241949476076, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: hitSprites.Array.data[0]
       value: 
       objectReference: {fileID: -1671300118, guid: b4c185732e2b948128c512c6906295d0, type: 3}
+    - target: {fileID: 6178688241949476076, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
+      propertyPath: hitSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 1321164948, guid: b4c185732e2b948128c512c6906295d0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
