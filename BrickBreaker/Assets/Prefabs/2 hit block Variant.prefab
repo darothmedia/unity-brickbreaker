@@ -53,19 +53,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1542425122667636247, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: m_Name
-      value: 2 hit block
+      value: 2 hit block Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3034923162056307523, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: m_Color.b
-      value: 0.9622642
+      value: 0.9607843
       objectReference: {fileID: 0}
     - target: {fileID: 3034923162056307523, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: m_Color.g
-      value: 0.77936
+      value: 0.8403181
       objectReference: {fileID: 0}
     - target: {fileID: 3034923162056307523, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: m_Color.r
-      value: 0.09531862
+      value: 0.09411763
       objectReference: {fileID: 0}
     - target: {fileID: 6178688241949476076, guid: 459b13d0c734e4722bf7a74fe55efddc, type: 3}
       propertyPath: MaxHits
