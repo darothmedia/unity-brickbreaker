@@ -124,4 +124,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6398a240e90b2402687d0f4a313ecc81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 68b44de86b0f24ac68eefa24d6652ce8, type: 3}
   hitSprites: []

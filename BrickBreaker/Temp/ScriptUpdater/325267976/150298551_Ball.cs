@@ -31,11 +31,7 @@ public class Ball : MonoBehaviour
         }
     }
     
-    void OnCollisionEnter2D(Collision2D col){
-        Vector2 tweak = new Vector2 (Random.Range(0f, 0.2f), Random.Range(0f, 0.2f));
-        if (hasStarted){
-            GetComponent<AudioSource>().Play();
-            GetComponent<Rigidbody2D>().velocity += tweak;
-        }
+    void onCollisionEnter2D(Collision2D col){
+        GetComponent<AudioSource>().Play();
     }
 }
