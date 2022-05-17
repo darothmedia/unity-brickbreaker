@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8508210099012308188}
   - component: {fileID: 8508210099012308177}
   - component: {fileID: 8508210099012308176}
-  - component: {fileID: -4137159949015432714}
+  - component: {fileID: -6400103543131723238}
   m_Layer: 0
   m_Name: paddle
   m_TagString: Untagged
@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPlay: 0
---- !u!60 &-4137159949015432714
-PolygonCollider2D:
+--- !u!61 &-6400103543131723238
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -134,7 +134,7 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0026110709, y: -0.005874872}
   m_SpriteTilingProperty:
     border: {x: 0.015625, y: 0, z: 0.015625, w: 0.015625}
     pivot: {x: 0.5, y: 0.5}
@@ -144,15 +144,6 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.49701062, y: 0.13638878}
-      - {x: -0.515625, y: -0.16796875}
-      - {x: 0.515625, y: -0.16796875}
-      - {x: 0.5103066, y: 0.12841105}
-      - {x: 0.46808976, y: 0.1480248}
-      - {x: 0.3309864, y: 0.15638185}
-      - {x: 0.12104317, y: 0.14061332}
-      - {x: -0.14229238, y: 0.15562773}
-      - {x: -0.28042468, y: 0.1426971}
-      - {x: -0.44415683, y: 0.15600252}
+  serializedVersion: 2
+  m_Size: {x: 1.0051396, y: 0.32418776}
+  m_EdgeRadius: 0

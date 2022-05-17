@@ -7,7 +7,7 @@ public class LoseCollider : MonoBehaviour
     private LevelManager levelManager;
     private GameObject lives;
     private List<GameObject> lifeArray;
-    private int lifeNum = 3;
+    public static int lifeNum = 3;
 
     void Start(){
         levelManager = GameObject.FindObjectOfType<LevelManager>();
@@ -24,10 +24,9 @@ public class LoseCollider : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D trigger){
         Life.lives--;
-        lifeNum = Life.lives;
         if (Life.lives == 0){
             levelManager.Lose();
-            Life.lives = 3;
+            Life.lives = lifeNum;
             Ball.hasStarted = false;
         } else {
             Destroy(lifeArray[Life.lives]);
