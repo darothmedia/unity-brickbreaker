@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     private Paddle paddle;
-    private bool hasStarted = false;
+    public static bool hasStarted = false;
     private Vector3 paddleToBallVector;
 
     // Start is called before the first frame update
@@ -24,7 +24,6 @@ public class Ball : MonoBehaviour
 
             //Wait for the mouse click to launch
             if (Input.GetMouseButtonDown(0)){
-                print("clicked");
                 this.GetComponent<Rigidbody2D>().velocity = new Vector2 (2f, 10f);
                 hasStarted = true;
             };

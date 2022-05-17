@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &97311945
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7626764
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.26704615
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.788931
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524545, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8035482868852524546, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
+      propertyPath: m_Name
+      value: Lives
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 08453f595aa68422ca72cdbd66f1c6a0, type: 3}
 --- !u!114 &373466686 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8508210099012308176, guid: d67b15ddf769f4d9781cdaea4d639429, type: 3}

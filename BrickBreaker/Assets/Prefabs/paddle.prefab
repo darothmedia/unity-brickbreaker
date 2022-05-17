@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8508210099012308179}
   - component: {fileID: 8508210099012308188}
   - component: {fileID: 8508210099012308177}
-  - component: {fileID: 8508210099012308178}
   - component: {fileID: 8508210099012308176}
+  - component: {fileID: -4137159949015432714}
   m_Layer: 0
   m_Name: paddle
   m_TagString: Untagged
@@ -108,8 +108,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &8508210099012308178
-BoxCollider2D:
+--- !u!114 &8508210099012308176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8508210099012308189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a839d60df503c4781a7cb44296619ca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoPlay: 0
+--- !u!60 &-4137159949015432714
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -131,19 +144,15 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.3203125}
-  m_EdgeRadius: 0
---- !u!114 &8508210099012308176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8508210099012308189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a839d60df503c4781a7cb44296619ca1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  autoPlay: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.49701062, y: 0.13638878}
+      - {x: -0.515625, y: -0.16796875}
+      - {x: 0.515625, y: -0.16796875}
+      - {x: 0.5103066, y: 0.12841105}
+      - {x: 0.46808976, y: 0.1480248}
+      - {x: 0.3309864, y: 0.15638185}
+      - {x: 0.12104317, y: 0.14061332}
+      - {x: -0.14229238, y: 0.15562773}
+      - {x: -0.28042468, y: 0.1426971}
+      - {x: -0.44415683, y: 0.15600252}

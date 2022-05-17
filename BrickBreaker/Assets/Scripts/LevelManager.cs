@@ -20,7 +20,12 @@ public class LevelManager : MonoBehaviour {
     public void BrickDestroyed(){
         if (Brick.breakableCount <= 0){
             LoadNextLevel();
+            Ball.hasStarted = false;
         }
+    }
+
+    public void Lose(){
+        LoadLevel("End");
     }
 
 }

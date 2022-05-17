@@ -22,8 +22,8 @@ public class Brick : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D collision){
-        AudioSource.PlayClipAtPoint(crack, transform.position, 0.2f);
         if (isBreakable) {
+            AudioSource.PlayClipAtPoint(crack, transform.position, 0.2f);
             HandleHits();
         }
     }
@@ -33,6 +33,7 @@ public class Brick : MonoBehaviour
         timesHit++;
         if (timesHit >= MaxHits) {
             breakableCount--;
+            print(breakableCount);
             levelManager.BrickDestroyed();
             Destroy(gameObject);
         } else {
